@@ -1,11 +1,8 @@
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <h1 className="font-Poppins">Hello E-commerce</h1>
-    </div>
-  );
+  return <BrowserRouter></BrowserRouter>;
 }
 
 export default App;
